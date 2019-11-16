@@ -39,7 +39,7 @@
        
         <div class="wrap">
         <form name="cal">
-            <input type="text" name="display" readonly>
+            <input type="text" name="display">
             <br><br>
 
             <input type="button" value="C" onclick="cal.display.value=''" id="del">
@@ -70,7 +70,7 @@
 
             <input type="button" value="0" onclick="cal.display.value+='0'">
             <input type="button" value="." onclick="cal.display.value+='.'">
-            <input type="button" value="=" onclick="cal.display.value=eval(cal.display.value)">
+            <input type="button" value="=" onclick="cal.display.value=math.eval(cal.display.value)">
             <input type="button" value="+" onclick="cal.display.value+='+'">
             <br><br>
             </form>

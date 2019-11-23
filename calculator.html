@@ -11,14 +11,34 @@
 
 </head>
 <body>
+
+
+
+        <div class="navbar">
+      
+         <a class="home"><a href="" > Home </a>
+
+          <a class="accessories"><a href="#Accessories">Contacts</a>
+
+           <a class="laptops"><a href="#Laptops"> About</a>
+            
+          <a class="contact"><a href="#Contact"> Scientific </a>
+          
+          <a class="about"><a href=""> Logarithmic</a>
+       </div>
+
+
      <h1>
         <div class="jumbotron">
             <P> MY CALCULATOR </P>
         </div>
      </h1>
+
+
+        
        
         <div class="wrap">
-            <form name="cal">
+        <form name="cal">
             <input type="text" name="display">
             <br><br>
 
@@ -50,14 +70,16 @@
 
             <input type="button" value="0" onclick="cal.display.value+='0'">
             <input type="button" value="." onclick="cal.display.value+='.'">
-            <input type="button" value="=" onclick="cal.display.value=eval(cal.display.value)">
+            <input type="button" value="=" onclick="cal.display.value=math.eval(cal.display.value)">
             <input type="button" value="+" onclick="cal.display.value+='+'">
             <br><br>
-            
+            </form>
+        </div>
 
         </form>
 
-        </div>
+
+
 
 
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
